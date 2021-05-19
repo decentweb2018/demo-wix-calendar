@@ -2,8 +2,8 @@ import React, {useState} from 'react';
 import {Platform, StyleSheet, TouchableNativeFeedback, TouchableOpacity, View} from 'react-native';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import moment from "moment";
-import {AppButton} from "../components/ui/AppButton";
 import {THEME} from "../theme";
+import {AppButton} from "../components/ui/AppButton";
 import {AppText} from "../components/ui/AppText";
 import {AppTextBold} from "../components/ui/AppTextBold";
 

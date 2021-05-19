@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import {View, StyleSheet} from 'react-native';
 import {useDispatch, useSelector} from "react-redux";
-import SvgUri from "expo-svg-uri";
 import {THEME} from "../theme";
+import {signIn} from "../store/actions/authActions";
 import {AppInput} from "../components/ui/AppInput";
 import {AppButton} from "../components/ui/AppButton";
-import {signIn} from "../store/actions/authActions";
+import {AppText} from "../components/ui/AppText";
 
 export const LoginScreen = ({navigation}) => {
     const dispatch = useDispatch();
@@ -22,7 +22,7 @@ export const LoginScreen = ({navigation}) => {
     return (
         <View style={styles.container}>
             <View style={{alignItems: 'center'}}>
-                <SvgUri style={styles.logo} source={require("../images/logo.svg")}/>
+                <AppText  style={{fontSize: 20}}>Company Name</AppText>
             </View>
             <View style={styles.form}>
                 <AppInput label="Email"

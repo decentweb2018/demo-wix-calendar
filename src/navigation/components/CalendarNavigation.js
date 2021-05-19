@@ -4,10 +4,8 @@ import {useDispatch} from "react-redux";
 import {createStackNavigator} from "@react-navigation/stack";
 import {HeaderButtons, Item} from "react-navigation-header-buttons";
 import {navigationScreenOptions} from "../navigationOptions";
-import {OffersScreen} from "../../screens/OffersScreen";
 import {CalendarScreen} from "../../screens/CalendarScreen";
 import {OfferScreen} from "../../screens/OfferScreen";
-import {JobLogScreen} from "../../screens/JobLogScreen";
 import {TimeEditScreen} from "../../screens/TimeEditScreen";
 import {AppHeaderIcon} from "../../components/ui/AppHeaderIcon";
 import {CalendarDatesRangeScreen} from "../../screens/CalendarDatesRangeScreen";
@@ -94,21 +92,10 @@ export const CalendarNavigation = ({navigation}) => {
                 }}
             />
             <Stack.Screen
-                name="Offers"
-                component={OffersScreen}
-            />
-            <Stack.Screen
                 name="JobOffer"
                 component={OfferScreen}
                 options={{
                     title: "Job offer"
-                }}
-            />
-            <Stack.Screen
-                name="Job log"
-                component={JobLogScreen}
-                options={{
-                    title: "Job log"
                 }}
             />
             <Stack.Screen

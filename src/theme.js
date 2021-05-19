@@ -38,59 +38,6 @@ export const CalendarStyles = {
     todayTextColor: "#000",
 }
 
-export const SelectMultipleStyles = {
-    wrapper: {
-        height: "100%",
-        backgroundColor: '#fff'
-    },
-    container: {
-        paddingVertical: 30,
-        paddingHorizontal: 15,
-    },
-    rowStyle: {
-        borderBottomWidth: 1,
-        borderColor: "#D4D4D8",
-        backgroundColor: THEME.GREY_COLOR_2
-    },
-    FlatList: {
-        borderRadius: 4,
-        borderWidth: 1,
-        borderColor: "#D4D4D8",
-    },
-    labelStyle: {
-        marginLeft: 3,
-        fontSize: 16,
-    }
-}
-
-export const BadgeStyles = {
-    badges: {
-        flexDirection: 'row',
-        flexWrap: 'wrap'
-    },
-    badge: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        padding: 8,
-        marginRight: 12,
-        marginBottom: 12,
-        backgroundColor: THEME.GREY_COLOR_2
-    },
-    badgeAdd: {
-        backgroundColor: THEME.SECONDARY_COLOR
-    },
-    badgeTitle: {
-        fontFamily: "Inter-Medium",
-        fontSize: 17,
-        marginRight: 10
-    },
-    badgeAddTitle: {
-        marginRight: 2,
-        marginLeft: 8,
-        color: THEME.MAIN_COLOR
-    }
-}
-
 export const JobStyles = {
     container: {
         paddingHorizontal: 15,
@@ -153,53 +100,4 @@ export const JobStyles = {
         lineHeight: 24,
         color: "#3F3F46"
     }
-}
-
-export const BoxesStyles = {
-    box: {
-        marginBottom: 8,
-        padding: 12,
-        paddingBottom: 8,
-        borderWidth: 1,
-        borderColor: THEME.GREY_COLOR,
-        backgroundColor: THEME.GREY_COLOR_2
-    },
-    boxActive: {
-        backgroundColor: THEME.SECONDARY_COLOR
-    },
-    boxTitleWrap: {
-        marginBottom: 4,
-        flexDirection: 'row',
-        justifyContent: 'flex-start',
-        alignItems: 'center',
-    },
-    boxTitle: {
-        fontFamily: "Inter-Medium",
-        fontSize: 17,
-    },
-    boxSubTitle: {
-        marginBottom: 4,
-        fontSize: 15,
-        color: THEME.GREY_COLOR_3
-    },
-    boxDesc: {
-        marginBottom: 4,
-        fontSize: 13,
-        color: THEME.GREY_COLOR_3
-    },
-    arrow: {
-        position: 'absolute',
-        top: '55%',
-        right: 10,
-    },
-    arrowImg: {
-        height: 12,
-        width: 6
-    },
-    activeDot: {
-        marginRight: 4,
-        borderWidth: 6,
-        borderColor: "#4ADE80",
-        borderRadius: 50,
-    },
 }

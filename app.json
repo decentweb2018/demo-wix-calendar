@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Joblink",
-    "slug": "joblink",
-    "version": "1.0.1",
+    "name": "demo_calendar_wix",
+    "slug": "demo_calendar_wix",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/rn-icon.png",
     "splash": {
@@ -18,14 +18,13 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "buildNumber": "1.0.1"
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/rn-adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.dogram.joblink_rn_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"

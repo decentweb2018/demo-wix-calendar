@@ -73,8 +73,7 @@ export const OfferScreen = ({route, navigation}) => {
                     </View>
                 </View>
                 <View style={{marginBottom: 8}}>
-                    <AppButton onPress={() => navigation.navigate("Job log")}
-                               bgColor={THEME.MAIN_COLOR}>Accept</AppButton>
+                    <AppButton bgColor={THEME.MAIN_COLOR}>Accept</AppButton>
                 </View>
                 <View style={{marginBottom: 5}}>
                     <AppButton onPress={() => navigation.goBack()}
